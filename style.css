@@ -1,0 +1,107 @@
+/* .bg-img {
+  max-height: 70%;
+  width: auto;
+}
+ */
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-header {
+  height: 50px;
+}
+
+#bm {
+  background-image: url("./images/blackmirror.jpeg");
+}
+
+/* #landing {
+  background-image: url("./images/landing.jpg");
+} */
+
+#got {
+  background-image: url("./images/got.jpg");
+}
+
+#cern {
+  background-image: url("./images/chernobyl.jpg");
+}
+
+.section-img {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.full-screen-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.fixed-img {
+  background-attachment: fixed;
+}
+
+.container-xs-height {
+  display: table;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.row-xs-height {
+  display: table-row;
+}
+
+.anchor-img {
+  width: 20%;
+}
+
+.title-pic {
+  width: 30%;
+  margin: 0.4em;
+}
+
+.carousel {
+  top: 50%;
+  margin-top: -25%;
+  position: relative;
+}
+
+.carousel-inner > .carousel-item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+  margin: auto;
+  width: 100%;
+}
+
+/* .carousel-caption h5 {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h5 {
+    color: blue;
+    margin: 0;
+    padding: 0;
+  }
+} */
+
+.description {
+  background-color: wheat;
+  text-align: center;
+
+  position: relative;
+  top: 70%;
+}
+
+.fact {
+  text-align: justify;
+  text-justify: inter-word;
+}
